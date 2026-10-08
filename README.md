@@ -24,6 +24,54 @@ The framework is evaluated using controlled synthetic 3D neuroimaging datasets w
 
 \---
 
+\---
+
+
+
+\## Experimental Results
+
+
+
+The framework was evaluated using controlled synthetic 3D neuroimaging experiments. The experiments examine detection performance, comparison with baseline multiple-testing methods, and robustness under increasing noise.
+
+
+
+\### Method Comparison
+
+
+
+The proposed Adaptive Sparse fcHMRF-LIS framework is compared with Benjamini-Hochberg (BH), q-value, and LocalFDR methods using detection and false-discovery metrics.
+
+
+
+!\[Method Comparison](method\_comparison.png)
+
+
+
+\### Abnormality Detection Maps
+
+
+
+The detected abnormal regions are visualized against the simulated neuroimaging data to demonstrate spatial localization of the detected abnormalities.
+
+
+
+!\[Discovery Maps](discovery\_maps.png)
+
+
+
+\### Noise Robustness
+
+
+
+The framework is evaluated under different noise levels to study its false-discovery control and detection performance as noise increases.
+
+
+
+!\[Noise Robustness](noise\_robustness.png)
+
+
+
 
 
 \## Objectives
