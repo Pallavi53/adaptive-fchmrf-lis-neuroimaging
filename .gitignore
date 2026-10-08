@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Generated datasets
+data/*.npz
+
+# Generated experiment results
+results/*.csv
+results/*.png
+results/*.html
+results/*.json
+
+# Python cache
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
